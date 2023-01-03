@@ -15,9 +15,9 @@ export default function ProductList(props) {
           </div>
         </div>
       <div className="buttons">
-        {props.btns.map((btn,id) =>{
+        {props.btns.map((btns) =>{
             return (
-                <button className={styles.btn} key={id} value={btn} onClick={props.handleBtns}> {btn}
+                <button className={styles.btn}  value={btns.name} onClick={props.handleBtns}> <img className={styles.img_btn} src={btns.url} />
                 </button>
             )
         })}

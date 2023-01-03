@@ -28,12 +28,6 @@
 
 }
 
-/* .card_text{
-    color: "black";
-    padding: 10px;
-    border-radius: 0 0 10px 10px ;
-} */
-
 .info{
     text-align: left;
     padding: 10px 5px;
@@ -42,10 +36,19 @@
 
 .btn {
   margin: 50px 10px;
-  width: 100px;
-  height: auto;
-  background-color: rgb(8, 255, 173);
+  background-color: rgb(245, 129, 235);
+  width: 120px;
+  height: 50px;
   border-radius: 10px;
   border: 1px solid;
-  box-shadow: 4px 6px 10px rgba(0,0,0,0.5);
+  box-shadow: 4px 6px 10px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+img {
+    width: 40px;
+    height: auto;
 }

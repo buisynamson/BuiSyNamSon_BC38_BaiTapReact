@@ -8,8 +8,7 @@ export default class ChangeGlass extends Component {
 state= {
     glasses:data,
     product: [],
-    btns:["GUCCI G8850U", "GUCCI G8759H", "DIOR D6700HQ", "DIOR D6005U","PRADA P8750","PRADA P9700", "FENDI F8750","FENDI F8500","FENDI F4300"]
-    // btns:[data.name]
+    btns: data,
 }
 
 handleBtns=(e) => {
