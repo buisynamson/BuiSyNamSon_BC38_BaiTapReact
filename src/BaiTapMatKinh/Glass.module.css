@@ -1,0 +1,46 @@
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_item {
+    width: 250px;
+}
+
+.model {  
+  width: 250px;
+  height: auto;
+  position: relative;
+}
+
+.model_img {
+    width: 250px;
+    height: auto;
+}
+
+.card_img {
+    width: 7.5%;
+    top: 135px;
+    left: 365px;
+    opacity: 50%;
+    position: absolute;
+
+}
+
+.card_text{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px ;
+}
+
+.btn {
+  margin: 50px 10px;
+  width: 100px;
+  height: auto;
+  background-color: rgb(8, 255, 173);
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: 4px 6px 10px rgba(0,0,0,0.5);
+}
