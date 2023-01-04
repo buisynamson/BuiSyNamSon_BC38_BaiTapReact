@@ -5,6 +5,7 @@ import styles from "./Glass.module.css";
 export default function ProductList(props) {
   return (
     <React.Fragment>
+      <div className={styles.row}>
       <div className="container">
         <div className={styles.main}>
           {props.glasses.map((glass) => {
@@ -21,7 +22,8 @@ export default function ProductList(props) {
                 </button>
             )
         })}
-        
+      
+      </div>
       </div>
       </div>
     </React.Fragment>
